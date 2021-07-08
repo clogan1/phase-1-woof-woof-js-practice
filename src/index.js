@@ -1,9 +1,6 @@
 //notes:
 //defer script
 //get json-server running: json-server --watch db.json
-//fetch dog object
-//render dog names to the #dog-bar div
-//add event listener for each dog span on #dog-bar div
 
 //global variables
 
@@ -97,6 +94,8 @@ function renderDogPage(data){
         } else {btn.textContent = "Good Dog"}
     //2. updates database with new status ("isGoodDog": true or false)
        // data.id
+
+    
 
     })
 }
